@@ -1,13 +1,11 @@
-import { FC, CSSProperties } from "react";
+import { FC } from "react";
 import { IProject } from "./Data";
 
 // Carousel
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
-import { AiOutlineArrowRight, AiFillHtml5, AiFillGithub } from "react-icons/ai";
-import { FaCss3Alt, FaReact } from "react-icons/fa";
-import { SiJavascript, SiTypescript } from "react-icons/si";
+import { AiOutlineArrowRight, AiFillGithub } from "react-icons/ai";
 
 interface ProjectProps {
   project: IProject;
@@ -34,9 +32,6 @@ const Project: FC<ProjectProps> = ({ project }) => {
         })}
       </Carousel>
       <h3 className="portfolio__title">{project.title}</h3>
-      {/* <div className="portfolio__techno">
-        {project.icons?.map((icon) => icon)}
-      </div> */}
 
       <div className="portfolio__link">
         <a

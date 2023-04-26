@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./education.css";
 
 import { BsBriefcase } from "react-icons/bs";

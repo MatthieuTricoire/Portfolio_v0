@@ -1,13 +1,11 @@
-import { IconType } from "react-icons";
 import imageTest from "../../../assets/worlde_1.png";
 import imageTest1 from "../../../assets/wordle_2.png";
 
 import bleuvert1 from "../../../assets/bleuvert_1.png";
 
-import { AiOutlineArrowRight, AiFillHtml5, AiFillGithub } from "react-icons/ai";
 import { FaCss3Alt, FaReact } from "react-icons/fa";
-import { SiJavascript, SiTypescript } from "react-icons/si";
-import { ReactComponentElement, ReactNode } from "react";
+
+import { ReactNode } from "react";
 
 export interface IProject {
   id: number;

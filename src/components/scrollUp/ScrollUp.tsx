@@ -1,4 +1,3 @@
-import React from "react";
 import "./scrollUp.css";
 
 import { AiOutlineArrowUp } from "react-icons/ai";

@@ -1,13 +1,3 @@
-import React from "react";
-
-import {
-  SiFigma,
-  SiAdobeillustrator,
-  SiAdobexd,
-  SiAdobelightroom,
-  SiJira,
-} from "react-icons/si";
-
 const Others = () => {
   return (
     <div className="skills__content">

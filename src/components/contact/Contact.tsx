@@ -3,7 +3,6 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
 
-import { GrContactInfo } from "react-icons/gr";
 import { AiOutlineArrowRight, AiOutlineMail } from "react-icons/ai";
 import { BsDiscord } from "react-icons/bs";
 import { FaSlack } from "react-icons/fa";

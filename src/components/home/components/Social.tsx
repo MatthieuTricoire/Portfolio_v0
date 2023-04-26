@@ -1,4 +1,3 @@
-import React from "react";
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 
 const Social = () => {
