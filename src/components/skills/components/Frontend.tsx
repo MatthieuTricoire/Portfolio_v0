@@ -1,5 +1,3 @@
-import React from "react";
-
 import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 import { FaCss3Alt, FaReact } from "react-icons/fa";
 import { SiJavascript, SiTypescript } from "react-icons/si";

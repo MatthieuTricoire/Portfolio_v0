@@ -1,4 +1,3 @@
-import React from "react";
 import { SiNodedotjs, SiMongodb } from "react-icons/si";
 import { FaStripeS } from "react-icons/fa";
 import { HiOutlinePhotograph } from "react-icons/hi";
