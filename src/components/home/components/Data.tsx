@@ -55,8 +55,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Développeur Frontend Junior</h3>
       <p className="home__description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate,
-        cumque!
+        En recherche d'un stage de 3 à 6 mois en tant que développeur Frontend.
       </p>
 
       <a href="#contact" className="button button--flex">

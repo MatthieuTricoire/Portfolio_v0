@@ -59,10 +59,7 @@ const Contact = () => {
               <BsDiscord className="contact__card-icon" />
               <h3 className="contact__card-title">Discord</h3>
               <span className="contact__card-data">Matthieu#2739</span>
-              <a
-                href="discordapp.com/users/Matthieu#2739"
-                className="contact__button"
-              >
+              <a href="discordapp.com/users/#2739" className="contact__button">
                 Écris-moi
                 <AiOutlineArrowRight className="contact__button-icon" />
               </a>
@@ -75,7 +72,10 @@ const Contact = () => {
               <span className="contact__card-data">
                 matthieutricoire@gmail.com
               </span>
-              <a href="" className="contact__button">
+              <a
+                href="https://acmeco.slack.com/team/U04H72GMDNU"
+                className="contact__button"
+              >
                 Écris-moi
                 <AiOutlineArrowRight className="contact__button-icon" />
               </a>
