@@ -73,6 +73,7 @@ export const projectsData: IProject[] = [
     id: 3,
     images: [kalculo1, kalculo2],
     title: "Kalculo",
+    icons: [<FaReact />],
     description:
       "Création d'une application mobile en groupe lors des deux dernières semaines du bootcamp",
     category: "Mobile",
@@ -83,6 +84,7 @@ export const projectsData: IProject[] = [
     id: 4,
     images: [drawshape1],
     title: "Dessine moi une forme",
+    icons: [<FaReact />, <SiTypescript />, <FaCss3Alt />],
     description:
       "Manipulation de la position du curseur dans la fenêtre pour l'ajout d'un élement.",
     category: "Web",
