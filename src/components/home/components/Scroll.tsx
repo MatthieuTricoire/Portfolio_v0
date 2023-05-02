@@ -39,8 +39,8 @@ const ScrollDown = () => {
             }}
           ></path>
         </svg>
-        <span className="home__scroll-name">Scroll vers le bas</span>
-        <AiOutlineArrowDown className="home__scroll-arrow" />
+        {/* <span className="home__scroll-name">Scroll vers le bas</span>
+        <AiOutlineArrowDown className="home__scroll-arrow" /> */}
       </a>
     </div>
   );

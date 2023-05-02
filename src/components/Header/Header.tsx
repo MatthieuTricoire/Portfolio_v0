@@ -21,12 +21,14 @@ const Header = () => {
       header?.classList.remove("scroll-header");
     }
   });
-  // TOOGLE MENU
+
+  // manage mobile menu displau
   const [menuVisible, setMenuVisible] = useState(false);
+
+  // manage nav item actived
   const [activeNav, setActiveNav] = useState<string>("#home");
 
-  // Go to and close menu if menu navbar ON
-
+  // Go to #tag and close mobile menu
   const handleLinkToAndClose = (tag: string) => {
     setActiveNav(tag);
 

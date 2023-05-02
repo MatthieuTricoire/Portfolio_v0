@@ -21,7 +21,7 @@
 }
 
 .portfolio__container {
-  grid-template-columns: repeat(2, max-content);
+  grid-template-columns: repeat(2, 400px);
   gap: 3rem;
   justify-content: center;
 }
@@ -29,32 +29,44 @@
 .portfolio__card {
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-
   padding: 1.25rem;
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .portfolio__carousel {
   width: 300px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .portfolio__img {
-  width: 300px;
-  aspect-ratio: 1/1;
+  /* width: 300px; */
   height: 300px;
   object-fit: contain;
   border-radius: 1rem;
-  margin-bottom: var(--mb-1);
+  /* margin-bottom: var(--mb-1); */
 }
 
 .portfolio__title {
   font-size: var(--normal-fs);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-5);
+  margin-top: var(--mb-0-5);
+}
+
+.portfolio__techno {
+  display: flex;
+  gap: 1rem;
 }
 
 .portfolio__description {
   font-size: var(--small-fs);
+  text-align: justify;
+  margin-bottom: var(--mb-0-5);
+
+  flex: 1;
 }
 
 .portfolio__link {
@@ -69,6 +81,7 @@
   color: var(--text-color);
   font-size: var(--small-fs);
   gap: 0.25rem;
+  cursor: pointer;
 }
 
 .portfolio__button-git {

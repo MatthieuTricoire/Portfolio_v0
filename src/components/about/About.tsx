@@ -1,5 +1,5 @@
 import "./about.css";
-import AboutImg from "../../assets/Photo.jpeg";
+import AboutImg from "../../assets/img/Photo.jpeg";
 import CV from "../../assets/Matthieu Tricoire.pdf";
 import Info from "./components/Info";
 

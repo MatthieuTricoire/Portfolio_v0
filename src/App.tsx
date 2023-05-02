@@ -17,6 +17,7 @@ function App() {
       <Header />
       <main className="main">
         <Home />
+        <div className="horizonta-line"></div>
         <About />
         <Skills />
         <Education />

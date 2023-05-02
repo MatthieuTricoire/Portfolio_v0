@@ -10,6 +10,7 @@ const Others = () => {
           <h3 className="skills__soft-name">Force de proposition</h3>
           <h3 className="skills__soft-name">Facilité d'adaptation</h3>
           <h3 className="skills__soft-name">Sensibilité UX/UI</h3>
+          <h3 className="skills__soft-name">Autonome</h3>
         </div>
       </div>
     </div>
