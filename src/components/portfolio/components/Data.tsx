@@ -87,7 +87,8 @@ export const projectsData: IProject[] = [
       "Manipulation de la position du curseur dans la fenêtre pour l'ajout d'un élement.",
     category: "Web",
     git: "https://github.com/MatthieuTricoire/Add-shapes-by-clicking",
-    live: false,
+    live: true,
+    liveUrl: "https://lambent-rabanadas-8d111f.netlify.app/",
   },
 ];
 
