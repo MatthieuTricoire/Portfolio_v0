@@ -58,7 +58,7 @@ export const projectsData: IProject[] = [
     icons: [<FaReact />, <SiTypescript />, <FaCss3Alt />],
     git: "https://github.com/MatthieuTricoire/fm-calculator",
     live: true,
-    liveUrl: "https://musical-taiyaki-3c8c23.netlify.app/",
+    liveUrl: "https://poetic-churros-ef9341.netlify.app",
   },
   // {
   //   id: 3,
